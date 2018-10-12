@@ -1,0 +1,326 @@
+﻿/* goobal */ 
+
+html {
+	padding: 0;
+	margin: 0;
+}
+body {background-color:#ffffff;  		 
+	font-family:Calibri, "Trebuchet MS", Cambria, sans-serif;
+	padding: 0;
+	margin-top: 0px;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+#wrapper {width:96%; min-width: 1026px; margin:0px auto; background-color:#FFFFFF;}
+
+#top {width:100%; margin:0px auto; height:141px; overflow:hidden; position:relative; clear:both;}		
+#top h1 {font-size:58px; color:#004646; position:relative; text-align:left; font-family:"Andalus", "Times New Roman", Times, serif; line-height:12px;}
+#door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:20px;}
+#background {opacity:0.3; position: absolute; height:141px; width:100%; }
+
+#topnav1 {padding-top:7px;}
+#topnav1 ul {position:relative; width:auto; float:left; text-align:left; font-weight:bolder;}
+#topnav1 ul li {display:inline; text-align:left; font-size:17px;}
+#topnav1 ul li a {float:left; padding:0px 27px; border-right:2px #C0C0C0 solid;}
+
+#topnav1 a:link {color:#004646; text-decoration: none;}
+#topnav1 a:visited {color:#004646;}
+#topnav1 a:active {color:#004646;}
+#topnav1 a:hover {color:#004646; background-color:#0099CC;}
+#topnav1 a:focus {color:#004646;}
+
+
+#table2 {background-color:#C0C0C0; text-align:center; width:100%; table-layout:fixed; height:28px; font-size:16px}
+#table2 td {background-color:#7F8C8D; text-align:center; width:10%; table-layout: fixed; height:26px; font-weight:600;}
+
+
+#table2 a:link {color:#ffffff; text-decoration: none;}
+#table2 a:visited {color:#ffffff;}
+#table2 a:active {color:#ffffff;}
+#table2 a:hover {color:#ffffff; background-color:#0099CC;}
+#table2 a:focus {color:#ffffff;}
+
+#slider {width:50%;}
+#slider img {float:left; width:565px; height:423px;}
+
+#sidebar1 {width:48%; padding-top:7px; margin:0px 30px 0px 25px;}
+#sidebar1 p {float:left; font-size:23px; text-align:left;}
+
+#sidebar2 {width:48%; padding:0px 0px 15px 0px; background-color:#E8FFFF; border:2px #AAD5FF solid;}
+#sidebar2 h2 {float:left; font-size:21px; text-align:left; margin:9px 0px 0px 20px;}
+#sidebar2 p {float:left; font-size:19px; text-align:left; margin:24px 0px 0px 42px; clear:both;}
+
+#sidebar2 ul li
+	{float:left;
+	font-size:18px;
+	text-align:left;
+	margin:15px 30px 0px 0px;
+	line-height: 1.25;
+	clear:both;}
+
+
+#subbanner {}
+
+#content {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding:20px}
+#content h1 {font-size:35px; text-align:left; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666;}
+#content p {clear:both; font-size:18px;}
+
+
+#content_main1 {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:center; padding: 0px 0px 15px 0px;}
+#content_main1 h1 {font-size:29px; text-align:center; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666;}
+#content_main1 p {font-size:19px; padding-top:18px; line-height:1.5; text-align:justify}
+#content_main1 img {float:right; padding:30px 0px 50px 60px; overflow:auto; width:450px; height:305px;}
+
+
+#content_main2 {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding: 0px 0px 15px 0px;}
+#content_main2 h1 {font-size:29px; text-align:left; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666;}
+#content_main2 ul {text-align:left,}
+#content_main2 ul li {text-align:left; font-size:18px; line-height:1.8;}
+
+#content_main2 ul li a:link {color:black;}
+#content_main2 ul li a:visited {color:black;}
+
+
+#content_main3 {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding: 0px 0px 15px 0px;}
+#content_main3 h1 {font-size:29px; text-align:left; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666;}
+#content_main3 p {clear:both; font-size:18px; padding-top:20px;}
+
+
+#content_table {width:94%; margin:0px auto; table-layout:auto;}
+#content_table td {width:50%; table-layout:auto;}
+#content_table td figcaption {clear:both; font-size:17px;}
+#content_table td img {width:420px; height:319px; padding:6px; border:1px #cccccc solid; margin:10px 40px 0px 40px;}
+
+
+
+
+
+
+#booking_page {background-color:#ffffff; clear:both; text-align:center;}
+#booking_page h1 {font-size:35px; text-align:center; margin-left:50px; margin-right:50px; padding:30px 0px 15px 0px; border-bottom:1px #777777 solid; color:#006666;}
+#booking_page h2 {font-size:20px; text-align:center; color:#006666; font-weight:bold; padding:0pc 150px;}
+#booking_page p {font-size:18px;  text-align:center; padding-left:150px; padding-right:150px;}
+#booking_page ul {text-align:center; margin:0px auto; padding-left:40%;}
+#booking_page ul li {text-align:left;}
+
+
+
+#booking_form {position:relative;}
+#booking_form p {text-align:center;}
+input.input1 {
+	border:solid #006666 thin;
+	box-shadow:1px 1px 1px #006666;
+	border-radius:10px;
+	width:300px;
+	height:25px;
+	padding:5px;
+	margin-bottom:5px;
+	font-size:16px;
+	font-family:Verdana, "Trebuchet MS", Arial, Calibri}
+input.input2 {
+	border:solid #006666 thin;
+	box-shadow:1px 1px 1px #006666;
+	width:50px;
+	height:25px;
+	padding:5px;
+	font-size:16px;
+	font-weight: bold;
+	font-family:Verdana, "Trebuchet MS", Arial, Calibri;
+	vertical-align:middle}
+	
+input.input_button {
+	width:100px;
+	height:40px;
+	padding:5px;
+	font-size:17px;
+	margin:20px
+	}
+
+textarea.text_area1 {
+	border:solid #006666 thin;
+	box-shadow:1px 1px 1px #006666;
+	border-radius:10px;
+	width:300px;
+	height:70px;
+	padding:10px;
+	margin-bottom:5px;
+	font-size:16px;
+	font-family:arial;}
+
+textarea.text_area2 {
+	border:solid #006666 thin;
+	box-shadow:1px 1px 1px #006666;
+	width:300px;
+	height:100px;
+	padding:10px;
+	font-size:16px;
+	font-family:arial;}
+
+#table_bottom1 {text-align:center; width:100%; font-size:12px;}
+#table_bottom1 td {text-align:center; width:50%;}
+#table_bottom1 a:link {text-decoration: none;}
+
+.enquire_form {
+	text-align:center;
+	width:250px;
+	height:80px;
+	font-size:18px;
+	font-weight:bold;
+	background:linear-gradient(to bottom right, #8EB367, #DCFCBB);
+	border:solid thin #006666;
+	border-radius:10px;
+	color:#003333;
+	padding-top:25px;	
+	box-shadow:2px 2px 2px #434547;
+	display: inline-block;
+	margin-bottom: 12px;
+	}
+.enquire_form:hover {border:solid #006666 2px;}
+
+.email_box {
+	text-align:center;
+	width:250px;
+	height:80px;
+	font-size:18px;
+	font-weight:bold;
+	background:linear-gradient(to bottom left, #8EB367, #DCFCBB);
+	border:solid thin #006666;
+	border-radius:10px;
+	color:#003333;
+	padding-top:25px;
+	box-shadow:2px 2px 2px #434547;
+	display: block;
+	margin-bottom: 12px;
+	}
+.email_box:hover {border:solid #006666 2px;}
+.email_box a:link {color:#003333; text-decoration:none;}
+
+.info_page_right {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
+.info_page_right img {float:left; padding:6px; border:1px #cccccc solid; margin-right:38px;}
+.info_page_right p {font-size:18px; }
+.info_page_right ul {padding-left:0px; font-size:18px;}
+.info_page_right ul li {padding-bottom:10px;}
+.info_page_right h1 {padding:0px 30px 0px 0px; font-size:20px; color:#006666; font-weight:bold}
+.info_page_right h2 {font-size:18px;}
+
+
+#apartment-layout {width:54%; float:left; background-color:#ffffff; text-align:left;}
+#apartment-layout h1 {padding:0px; font-size:20px; color:#006666; font-weight:bold }
+#apartment-layout h2 {font-size:18px;}
+#apartment-layout p {font-size:18px;}
+#apartment-layout ul {font-size:18px; float:left; clear:both; margin-top:5px;}
+#apartment-layout ul li {padding-bottom:8px;}
+
+#rating_logo {float:left; width:180px;}
+#rating_logo img {float:left; clear:both; margin:1px 0px 0px 75px; padding:0px; border:0px; width:110px; height:146px;}
+
+
+#location {float:left; width:44%; padding-left:30px;}
+#location p {font-size:18px; float:none;}
+
+.attractions {width:94%; margin:0px auto; background-color:#ffffff; text-align:left;}
+.attractions p {font-size:18px;}
+
+#top_attractions {width:34%; background-color:#E8FFFF; border:2px #AAD5FF solid; float:right}
+#top_attractions h2 {font-size:30px; background-color:#E8FFFF; color:#006666; font-weight:bold; margin:0px; padding:11px 0px 12px 20px;}
+#top_attractions ol {font-size:18px; margin:6px 0px; padding-bottom:3px;}
+#top_attractions ol li {padding:3px 0px 3px 15px;}
+#top_attractions p {font-size:15px; color:#7B7D7D;}
+
+ol.locality_bullets a:link {
+text-decoration:none;
+color:#006666;}
+
+ol.locality_bullets a:visited {
+text-decoration:none;
+color:#006666;}
+
+#nature {}
+#nature h2 {font-size:25px; color:#006666; }
+#nature p {font-size:18px; text-align:justify; padding-right:38%; }
+
+#culture {width:94%; margin:0px auto; clear:both}
+#culture h2 {font-size:25px; color:#006666; }
+#culture p {font-size:18px; text-align:justify; padding-right:40px; }
+
+
+
+.gallery1 {width:99%; margin:0px auto;}
+.gallery1 img {height:165px; width:250px; padding: 6px; border:1px #cccccc solid; margin:0px 0px 8px 8px; }
+.gallery1 img:hover {transform:scale(1.1)}
+
+.gallery2 {width:99%; margin:0px auto;}
+.gallery2 img {height:165px; width:250px; padding: 6px; border:1px #cccccc solid; margin:0px 0px 8px 8px; }
+.gallery2 img:hover {transform:scale(1.1)}
+
+.gallery3 {width:99%; margin:0px auto;}
+.gallery3 img {height:165px; width:250px; padding: 6px; border:1px #cccccc solid; margin:0px 0px 8px 8px; }
+.gallery3 img:hover {transform:scale(1.1)}
+
+.gallery4 {width:99%; margin:0px auto;}
+.gallery4 img {height:165px; width:250px; padding: 6px; border:1px #cccccc solid; margin:0px 0px 8px 8px; }
+.gallery4 img:hover {transform:scale(1.1)}
+
+.gallery1 a title {font-size:large;}
+
+
+.info_page_left {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
+.info_page_left img {float:right; padding:6px; border:1px #cccccc solid; margin-left:35px; margin-bottom: 20px;}
+.info_page_left p {font-size:18px;}
+.info_page_left h1 { font-size:20px; color:#006666; font-weight:bold}
+
+
+#facilities {width:51%;}
+#list1 {width:50%; float:left; clear:both;}
+#list1 ul {font-size:18px; line-height:1.25;}
+#list1 ul li {margin-left: 0px;}
+#list2 {width:50%; float:left;}
+#list2 ul {font-size:18px; line-height:1.25;}
+#list2 ul li {margin-left: 0px;}
+
+
+.info_page_bottom {width:94%; padding-top:75px; margin:0px auto; background-color:#ffffff; clear:both; text-align:center;}
+.info_page_bottom img {padding:6px; border:1px #cccccc solid; width:100%; height: auto; max-width: 375px;}
+
+img.map {
+	height:100px;
+	width:100px;
+	}
+img.map:hover {border: solid #006666 thin;}
+
+.text_page {background-color:#ffffff; clear:both; text-align:center;}
+.text_page h1 {font-size:20px; text-align:center; color:#006666; font-weight:bold}
+.text_page p {font-size:15px;  text-align:justify; padding-left:100px; padding-right:100px}
+p#small_text {text-align:center; font-size: 15px; color:#7B7D7D;}
+
+.review {
+	text-align:left;
+	vertical-align:middle;
+	font-size:16px;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	background:linear-gradient(to bottom left, #DCFCBB, #ECFED8);
+	border:solid thin #006666;
+	border-radius:5px;
+	color:#003333;
+	padding:27px;
+	box-shadow:1px 1px 1px #434547;
+	margin-right:250px;
+	margin-left:250px;
+	margin-top: 50px;}
+.review h2 {font-size:29px; padding:0px}	
+.review_inner {color:black; font-weight:bold; font-size:14px; font-family:Trebuchet MS, Helvetica, sans-serif}
+.review_inner_2 {color:black; font-weight:normal; font-style:italic; font-size:16px; font-family:Trebuchet MS, Helvetica, sans-serif; padding: 8px 0px 37px 0px;}
+.review:hover {border:solid #006666 2px;}
+
+#table_bottom2 {text-align:center; width:100%; table-layout:fixed; font-size:17px;}
+#table_bottom2 td {text-align:center; width:14.28%; table-layout:fixed;}
+#table_bottom2 a:link {text-decoration: none; color:#006666;}
+#table_bottom2 a:hover 	{color:#ffffff; background-color:#0099CC;}
+#table_bottom2 a:visited {color:#006666;}
+
+#footer {text-align:center; font-size:10px; color:#7B7D7D; text-decoration:none; width:80%; margin:0px auto; table-layout:fixed;}
+#footer a:link {text-decoration: none; color:#7B7D7D}
+#footer a:visited {text-decoration: none; color:#7B7D7D}
