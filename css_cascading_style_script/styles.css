@@ -89,8 +89,8 @@ body {background-color:#ffffff;
 #content_main3 p {clear:both; font-size:18px; padding-top:20px;}
 
 
-#content_table {overflow:hidden;}
-#content_table td {width:50%; table-layout:inherit;}
+#content_table {table-layout:inherit;}
+#content_table td {width:50%;}
 #content_table td figcaption {clear:both; font-size:17px;}
 #content_table td img {width:420px; height:319px; padding:6px; border:1px #cccccc solid; margin:10px 40px 0px 40px;}
 
