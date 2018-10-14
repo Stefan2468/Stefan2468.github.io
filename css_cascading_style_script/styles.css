@@ -90,7 +90,7 @@ body {background-color:#ffffff;
 
 
 #content_table {width:94%; margin:0px auto; table-layout:fixed;}
-#content_table td {}
+#content_table td {width:50%;}
 #content_table figcaption {clear:both; font-size:17px; padding-top:2px;}
 #content_table img {width:420px; height:319px; padding:6px; border:1px #cccccc solid; margin:10px 0px 0px 0px; display:inline-table;}
 
