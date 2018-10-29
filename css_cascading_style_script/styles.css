@@ -299,7 +299,6 @@ p#small_text {text-align:center; font-size: 15px; color:#7B7D7D;}
 .review {
 	text-align:left;
 	vertical-align:middle;
-	font-size:16px;
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	background:linear-gradient(to bottom left, #DCFCBB, #ECFED8);
 	border:solid thin #006666;
@@ -311,7 +310,7 @@ p#small_text {text-align:center; font-size: 15px; color:#7B7D7D;}
 	margin-left:250px;
 	margin-top: 50px;}
 .review h2 {font-size:29px; padding:0px}	
-.review_inner {color:black; font-weight:bold; font-size:14px; font-family:Trebuchet MS, Helvetica, sans-serif}
+.review_inner {color:#006666; font-weight:normal; font-style:italic; font-size:14px; font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;}
 .review_inner_2 {color:black; font-weight:normal; font-style:italic; font-size:16px; font-family:Trebuchet MS, Helvetica, sans-serif; padding: 8px 0px 37px 0px;}
 .review:hover {border:solid #006666 2px;}
 
