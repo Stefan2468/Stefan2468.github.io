@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
 
-<html>
+<html lang="en">
 
 <head>
 	<title>Self Catering Apartments Richmond UK</title>
 	<link href="css_cascading_style_script/styles.css" rel="stylesheet" type="text/css" media="screen">
-    <script type="text/javascript" src="java_script/jquery_js.js"></script>
-	<script type="text/javascript" src="java_script/jquery_ui.js"></script>
-	<script language="javascript" type="application/javascript">
+    <script src="java_script/jquery_js.js"></script>
+	<script src="java_script/jquery_ui.js"></script>
+	<script>
 	
 	var $cpn = Math.floor(Math.random()*9000)+1000;
 	
@@ -94,7 +94,7 @@
 		<br>
 		
 		<h2>Email:</h2>
-		<p>shipplets@ukgateway.net</p>
+		<p><a href="mailto:shipplets@ukgateway.net?subject=Accommodation%20enquiry" style="text-decoration: none;color: black;">shipplets@ukgateway.net</a></p>
 		<br>
 				
 		<h2>Telephone Number:</h2>
@@ -122,7 +122,7 @@
 			<input type="text" name="name" class="input1"><br><br>
 	
 			Address<br>
-			<textarea type="text" name="address" rows="2" class="text_area1"></textarea>
+			<textarea name="address" rows="2" class="text_area1"></textarea>
 			<br><br>
 	
 			Telephone <strong>(required)</strong><br>
