@@ -94,7 +94,7 @@
 		<br>
 		
 		<h2>Email:</h2>
-		<p><a href="mailto:shipplets@ukgateway.net?subject=Accommodation%20enquiry" style="text-decoration: none;color: black;">shipplets@ukgateway.net</a></p>
+		<p><a href="mailto:shipplets@hotmail.com?subject=Accommodation%20enquiry" style="text-decoration: none;color: black;">shipplets@hotmail.com</a></p>
 		<br>
 				
 		<h2>Telephone Number:</h2>
@@ -115,7 +115,7 @@
 	
 	</div>
 	
-	<div style="text-align:center; font-size:17px;">
+	<div style="text-align:center; font-size:19px;">
 		<form action="grantsscript.php" name="myForm" method="post" id="booking_form" onsubmit="return captChk();">
 			
 			Contact Name <strong>(required)</strong><br>

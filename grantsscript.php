@@ -1,7 +1,7 @@
 <?php
 // OPTIONS - PLEASE CONFIGURE THESE BEFORE USE!
 
-$yourEmail = "shipplets@ukgateway.net"; // the email address you wish to receive these mails through
+$yourEmail = "shipplets@hotmail.com"; // the email address you wish to receive these mails through
 $yourWebsite = "Shipplets.com - Enquiry"; // the name of your website
 $thanksPage = ''; // URL to 'thanks for sending mail' page; leave empty to keep message on the same page 
 $requiredFields = "name,email,telephone"; // names of the fields you'd like to be required as a minimum, separate each field with a comma

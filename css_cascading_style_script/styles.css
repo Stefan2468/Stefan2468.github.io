@@ -46,12 +46,12 @@ body {background-color:#ffffff;
 #slider {width:50%;}
 #slider img {float:left; width:565px; height:423px;}
 
-#sidebar1 {width:48%; padding-top:7px; margin:0px 30px 0px 25px;}
+#sidebar1 {width:48%; padding:15px 0px; margin:0px 30px 0px 25px;}
 #sidebar1 p {float:left; font-size:23px; text-align:left;}
 
 #sidebar2 {width:48%; padding:0px 0px 15px 0px; background-color:#E8FFFF; border:2px #AAD5FF solid;}
-#sidebar2 h2 {float:left; font-size:21px; text-align:left; margin:9px 0px 0px 20px;}
-#sidebar2 p {float:left; font-size:19px; text-align:left; margin:24px 0px 0px 42px; clear:both;}
+#sidebar2 h2 {float:left; font-size:22px; text-align:left; margin:11px 0px 0px 20px;}
+#sidebar2 p {float:left; font-size:19px; text-align:left; margin:20px 0px 0px 42px; clear:both;}
 
 #sidebar2 ul li
 	{float:left;
