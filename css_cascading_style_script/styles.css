@@ -1,10 +1,10 @@
-﻿/* goobal */ 
+﻿/* goobal */
 
 html {
 	padding: 0;
 	margin: 0;
 }
-body {background-color:#ffffff;  		 
+body {background-color:#ffffff;
 	font-family:Calibri, "Trebuchet MS", Cambria, sans-serif;
 	padding: 0;
 	margin-top: 0px;
@@ -16,7 +16,7 @@ body {background-color:#ffffff;
 
 #wrapper {width:96%; min-width: 1026px; margin:0px auto; background-color:#FFFFFF;}
 
-#top {width:100%; margin:0px auto; height:141px; overflow:hidden; position:relative; clear:both;}		
+#top {width:100%; margin:0px auto; height:141px; overflow:hidden; position:relative; clear:both;}
 #top h1 {font-size:58px; color:#004646; position:relative; text-align:left; font-family:"Andalus", "Times New Roman", Times, serif; line-height:12px;}
 #door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:20px;}
 #background {opacity:0.3; position: absolute; height:141px; width:100%; }
@@ -110,6 +110,10 @@ body {background-color:#ffffff;
 
 #booking_form {position:relative;}
 #booking_form p {text-align:center;}
+input {
+
+	outline: none;
+}
 input.input1 {
 	border:solid #006666 thin;
 	box-shadow:1px 1px 1px #006666;
@@ -130,7 +134,7 @@ input.input2 {
 	font-weight: bold;
 	font-family:Verdana, "Trebuchet MS", Arial, Calibri;
 	vertical-align:middle}
-	
+
 input.input_button {
 	width:100px;
 	height:40px;
@@ -173,7 +177,7 @@ textarea.text_area2 {
 	border:solid thin #006666;
 	border-radius:10px;
 	color:#003333;
-	padding-top:25px;	
+	padding-top:25px;
 	box-shadow:2px 2px 2px #434547;
 	display: inline-block;
 	margin-bottom: 12px;
@@ -309,7 +313,7 @@ p#small_text {text-align:center; font-size: 15px; color:#7B7D7D;}
 	margin-right:250px;
 	margin-left:250px;
 	margin-top: 50px;}
-.review h2 {font-size:29px; padding:0px}	
+.review h2 {font-size:29px; padding:0px}
 .review_inner {color:#003333; font-weight:normal; font-style:italic; font-size:16px;}
 .review_inner_2 {color:black; font-weight:normal; font-style:italic; font-size:16px; font-family:Trebuchet MS, Helvetica, sans-serif; padding: 8px 0px 37px 0px;}
 .review:hover {border:solid #006666 2px;}
