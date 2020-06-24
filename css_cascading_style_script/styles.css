@@ -14,15 +14,14 @@ body {background-color:#ffffff;
 }
 
 
-#wrapper {width:100%; margin:0px auto; background-color:#FFFFFF;}
+#wrapper {width:96%; min-width: 1026px; margin:0px auto; background-color:#FFFFFF;}
 
 #top {width:100%; margin:0px auto; height:141px; overflow:hidden; position:relative; clear:both;}
-#background {width:100%; margin:0px auto;}
 #top h1 {font-size:58px; color:#004646; position:relative; text-align:left; font-family:"Andalus", "Times New Roman", Times, serif; line-height:12px;}
-#door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:4%;}
+#door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:20px;}
 #background {opacity:0.3; position: absolute; height:141px; width:100%; }
 
-#topnav1 {width:100%; margin:0px auto; padding-top:7px;}
+#topnav1 {padding-top:7px;}
 #topnav1 ul {position:relative; width:auto; float:left; text-align:left; font-weight:bolder;}
 #topnav1 ul li {display:inline; text-align:left; font-size:17px;}
 #topnav1 ul li a {float:left; padding:0px 27px; border-right:2px #C0C0C0 solid;}
@@ -34,18 +33,15 @@ body {background-color:#ffffff;
 #topnav1 a:focus {color:#004646;}
 
 
-#topnav {width:100%; background-color:#004646; border-top:2px #C0C0C0 solid; border-bottom:2px #C0C0C0 solid;}
-#topnav ul {width:100%; display:table; list-style:none; margin:0px auto; padding:5px;}
-#topnav ul li {width:20%; display:table-cell; text-align:center; font-size:16px; font-weight:600;}
-#topnav ul li a {display:block; border-right:2px #C0C0C0 solid;}
-
-#topnav a:link {color:#ffffff; text-decoration: none;}
-#topnav a:visited {color:#ffffff;}
-#topnav a:active {color:#ffffff;}
-#topnav a:hover {color:#ffffff; background-color:#0099CC;}
-#topnav a:focus {color:#ffffff;}
+#table2 {background-color:#C0C0C0; text-align:center; width:100%; table-layout:fixed; height:28px; font-size:16px}
+#table2 td {background-color:#7F8C8D; text-align:center; width:10%; table-layout: fixed; height:26px; font-weight:600;}
 
 
+#table2 a:link {color:#ffffff; text-decoration: none;}
+#table2 a:visited {color:#ffffff;}
+#table2 a:active {color:#ffffff;}
+#table2 a:hover {color:#ffffff; background-color:#0099CC;}
+#table2 a:focus {color:#ffffff;}
 
 #slider {width:50%;}
 #slider img {float:left; width:565px; height:423px;}
@@ -68,18 +64,18 @@ body {background-color:#ffffff;
 
 #subbanner {}
 
-#content {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding:20px}
+#content {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding:20px}
 #content h1 {font-size:35px; text-align:left; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666;}
 #content p {clear:both; font-size:18px;}
 
 
-#content_main1 {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:center; padding: 0px 0px 15px 0px;}
+#content_main1 {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:center; padding: 0px 0px 15px 0px;}
 #content_main1 h1 {font-size:29px; text-align:center; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666;}
 #content_main1 p {font-size:19px; padding-top:18px; line-height:1.5; text-align:justify}
 #content_main1 img {float:right; padding:30px 0px 50px 60px; overflow:auto; width:450px; height:305px;}
 
 
-#content_main2 {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding: 0px 0px 15px 0px;}
+#content_main2 {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding: 0px 0px 15px 0px;}
 #content_main2 h1 {font-size:29px; text-align:left; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666;}
 #content_main2 ul {text-align:left;}
 #content_main2 ul li {text-align:left; font-size:18px; line-height:1.8;}
@@ -88,12 +84,12 @@ body {background-color:#ffffff;
 #content_main2 ul li a:visited {color:black;}
 
 
-#content_main3 {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding: 0px 0px 15px 0px;}
+#content_main3 {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding: 0px 0px 15px 0px;}
 #content_main3 h1 {font-size:29px; text-align:left; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666;}
 #content_main3 p {clear:both; font-size:18px; padding-top:20px;}
 
 
-.content_table {width:90%; margin:0px auto; table-layout:fixed;}
+.content_table {width:94%; margin:0px auto; table-layout:fixed;}
 .content_table td {table-layout:fixed;}
 .content_table figcaption {clear:both; font-size:17px; padding-top:2px;}
 .content_table img {width:420px; height:319px; padding:6px; border:1px #cccccc solid; margin:7px 0px 0px 0px; display:inline-table;}
@@ -206,7 +202,7 @@ textarea.text_area2 {
 .email_box:hover {border:solid #006666 2px;}
 .email_box a:link {color:#003333; text-decoration:none;}
 
-.info_page_right {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
+.info_page_right {width:94%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
 .info_page_right img {float:left; padding:6px; border:1px #cccccc solid; margin-right:38px;}
 .info_page_right p {font-size:18px; }
 .info_page_right ul {padding-left:0px; font-size:18px;}
@@ -229,7 +225,7 @@ textarea.text_area2 {
 #location {float:left; width:44%; padding-left:30px;}
 #location p {font-size:18px; float:none;}
 
-.attractions {width:96%; margin:0px auto; background-color:#ffffff; text-align:left;}
+.attractions {width:94%; margin:0px auto; background-color:#ffffff; text-align:left;}
 .attractions p {font-size:18px;}
 
 #top_attractions {width:34%; background-color:#E8FFFF; border:2px #AAD5FF solid; float:right}
@@ -250,7 +246,7 @@ color:#006666;}
 #nature h2 {font-size:25px; color:#006666; }
 #nature p {font-size:18px; text-align:justify; padding-right:38%; }
 
-#culture {width:96%; margin:0px auto; clear:both}
+#culture {width:94%; margin:0px auto; clear:both}
 #culture h2 {font-size:25px; color:#006666; }
 #culture p {font-size:18px; text-align:justify; padding-right:40px; }
 
@@ -290,7 +286,7 @@ color:#006666;}
 #list2 ul li {margin-left: 0px;}
 
 
-.info_page_bottom {width:90%; padding-top:75px; margin:0px auto; background-color:#ffffff; clear:both; text-align:center;}
+.info_page_bottom {width:94%; padding-top:75px; margin:0px auto; background-color:#ffffff; clear:both; text-align:center;}
 .info_page_bottom img {padding:6px; border:1px #cccccc solid; width:100%; height: auto; max-width: 375px;}
 
 img.map {
