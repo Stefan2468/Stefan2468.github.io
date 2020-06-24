@@ -24,24 +24,28 @@ body {background-color:#ffffff;
 #topnav1 {padding-top:7px;}
 #topnav1 ul {position:relative; width:auto; float:left; text-align:left; font-weight:bolder;}
 #topnav1 ul li {display:inline; text-align:left; font-size:17px;}
-#topnav1 ul li a {float:left; padding:0px 27px; border-right:2px #C0C0C0 solid;}
+#topnav1 ul li a {float:left; padding:0px 27px; border-right:2px #9F9F9F solid;}
 
 #topnav1 a:link {color:#004646; text-decoration: none;}
 #topnav1 a:visited {color:#004646;}
-#topnav1 a:active {color:#004646;}
 #topnav1 a:hover {color:#004646; background-color:#0099CC;}
+#topnav1 a:active {color:#004646;}
 #topnav1 a:focus {color:#004646;}
 
 
-#table2 {background-color:#C0C0C0; text-align:center; width:100%; table-layout:fixed; height:28px; font-size:16px}
-#table2 td {background-color:#7F8C8D; text-align:center; width:10%; table-layout: fixed; height:26px; font-weight:600;}
-
+#table2 {background-color:#004646; border:2px #9F9F9F solid; text-align:center; width:100%; table-layout:fixed; height:28px; font-size:16px}
+#table2 {border-collapse:collapse;}
+#table2 td {text-align:center; border-right:2px solid #9F9F9F; width:20%; table-layout:fixed; height:26px; font-weight:600; padding:1px;}
 
 #table2 a:link {color:#ffffff; text-decoration: none;}
 #table2 a:visited {color:#ffffff;}
+#table2 a:hover {color:#ffffff; background-color:#0099CC; display:block; width:98%; height:100%; margin:0px auto; text-decoration:none; border-bottom:1.5px white solid;}
 #table2 a:active {color:#ffffff;}
-#table2 a:hover {color:#ffffff; background-color:#0099CC;}
 #table2 a:focus {color:#ffffff;}
+
+
+
+
 
 #slider {width:50%;}
 #slider img {float:left; width:565px; height:423px;}
