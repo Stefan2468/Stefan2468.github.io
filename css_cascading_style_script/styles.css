@@ -22,40 +22,28 @@ body {background-color:#ffffff;
 #door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:4%;}
 #background {opacity:0.3; position: absolute; height:141px; width:100%; }
 
-#topnav1 {width:100%; margin:0px auto; padding-top:5px;}
+#topnav1 {width:100%; margin:0px auto; padding-top:7px;}
 #topnav1 ul {position:relative; width:auto; float:left; text-align:left; font-weight:bolder;}
 #topnav1 ul li {display:inline; text-align:left; font-size:17px;}
-#topnav1 ul li a {float:left; padding:5px 27px; border-right:2px #9F9F9F solid;}
+#topnav1 ul li a {float:left; padding:0px 27px; border-right:2px #C0C0C0 solid;}
 
 #topnav1 a:link {color:#004646; text-decoration: none;}
 #topnav1 a:visited {color:#004646;}
-#topnav1 a:hover {color:#004646; background-color:#0099CC;}
 #topnav1 a:active {color:#004646;}
+#topnav1 a:hover {color:#004646; background-color:#0099CC;}
 #topnav1 a:focus {color:#004646;}
 
 
-
-#topnav {width:100%; background-color:#004646; border-top:3px #C0C0C0 solid; border-bottom:3px #C0C0C0 solid;}
-#topnav ul {width:99%; display:table; list-style:none; margin:0px auto; padding:1px;}
+#topnav {width:100%; background-color:#004646; border-top:2px #C0C0C0 solid; border-bottom:2px #C0C0C0 solid;}
+#topnav ul {width:100%; display:table; list-style:none; margin:0px auto; padding:5px;}
 #topnav ul li {width:20%; display:table-cell; text-align:center; font-size:16px; font-weight:600;}
-#topnav ul li a {display:block; color:#ffffff; padding:3px 0px; text-decoration:none; border-bottom:2px solid transparent;}
+#topnav ul li a {display:block; border-right:2px #C0C0C0 solid;}
 
-#topnav a:link {color:#ffffff; text-decoration:none;}
+#topnav a:link {color:#ffffff; text-decoration: none;}
 #topnav a:visited {color:#ffffff;}
-#topnav a:hover {color:#ffffff; background-color:#0099CC; border-bottom:2px solid #ffffff;}
+#topnav a:active {color:#ffffff;}
+#topnav a:hover {color:#ffffff; background-color:#0099CC;}
 #topnav a:focus {color:#ffffff;}
-#topnav a.active {color:#ffffff; border-bottom:2px solid #ffffff;}
-
-
-
-#coronavirus_note {width:72%; margin:0px auto; margin-top:4px; border:1px #FF0000 solid; padding:0px 15px; font-size:17px; font-weight:bolder; text-align:justify; }
-#coronavirus {width:85%; margin:0px auto; text-align:center;}
-#coronavirus h1 {font-size:35px; color:#006666; padding:30px 0px 15px 0px; border-bottom:1px #777777 solid;}
-#covid_text {width:85%; margin:0px auto;}
-#covid_text h2 {font-size:24px; color:#006666; padding:10px 0px 5px 0px;}
-#covid_text p {font-size:18px; text-align:center, justify;}
-#covid_text ul {font-size:18px; text-align:left;}
-#covid_text ul li {line-height:1.5;}
 
 
 
