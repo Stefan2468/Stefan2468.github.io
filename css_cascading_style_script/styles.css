@@ -14,7 +14,7 @@ body {background-color:#ffffff;
 }
 
 
-#wrapper {width:96%; min-width: 1026px; margin:0px auto; background-color:#FFFFFF;}
+#wrapper {width:100%; min-width: 1026px; margin:0px auto; background-color:#FFFFFF;}
 
 #top {width:100%; margin:0px auto; height:141px; overflow:hidden; position:relative; clear:both;}
 #top h1 {font-size:58px; color:#004646; position:relative; text-align:left; font-family:"Andalus", "Times New Roman", Times, serif; line-height:12px;}
