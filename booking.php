@@ -57,34 +57,32 @@
 			<h1>Larkfield Apartments</h1>
 
 		<div id="topnav1">
-
+			
 			<ul>
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="location.html">LOCAL ATTRACTIONS</a></li>
 				<li><a href="booking-information.html">BOOKING INFORMATION</a></li>
 				<li><a href="booking.php">CONTACT US</a></li>
-
-
+				<li><a href="coronavirus.html" style="border-left:1.5px #FF0000 solid; border-right:1.5px #FF0000 solid;">CORONAVIRUS</a></li>
+				
+			
 			</ul>
-
+			
 		</div>
 
 	</div>
 
 	<div id="topnav">
 
-		<table id="table2">
-			<tr>
-				<td><a href="studio.html">STUDIO APARTMENT</a></td>
-				<td><a href="one-bedroom.html">ONE BEDROOM APARTMENT</a></td>
-				<td><a href="two-bedroom-apt.html">TWO BEDROOM APARTMENT</a></td>
-				<td><a href="two-bedroom-house.html">TWO BEDROOM HOUSE</a></td>
-				<td><a href="reviews.html">REVIEWS</a></td>
-			</tr>
+			<ul>
+				<li><a href="studio.html" style="border-right:2px #C0C0C0 solid">STUDIO APARTMENT</a></li>
+				<li><a href="one-bedroom.html" style="border-right:2px #C0C0C0 solid">ONE BEDROOM APARTMENT</a></li>
+				<li><a href="two-bedroom-apt.html" style="border-right:2px #C0C0C0 solid">TWO BEDROOM APARTMENT</a></li>
+				<li><a href="two-bedroom-house.html" style="border-right:2px #C0C0C0 solid">TWO BEDROOM HOUSE</a></li>
+				<li><a href="reviews.html">REVIEWS</a></li>
+			</ul>
 
-		</table>
-
-	</div>
+		</div>
 
 
 	<div id="booking_page">
