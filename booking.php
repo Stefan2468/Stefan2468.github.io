@@ -57,21 +57,25 @@
 			<h1>Larkfield Apartments</h1>
 
 		<div id="topnav1">
-
-			<ul>
-				<li><a href="index.html">HOME</a></li>
-				<li><a href="location.html">LOCAL ATTRACTIONS</a></li>
-				<li><a href="booking-information.html">BOOKING INFORMATION</a></li>
-				<li><a href="booking.php">CONTACT US</a></li>
-
-
-			</ul>
-
+			
+		<table id="table_top1">
+			<tr>
+				<td><a href="index.html">HOME</a></td>
+				<td><a href="location.html">LOCAL ATTRACTIONS</a></td>
+				<td><a href="booking-information.html">BOOKING INFORMATION</a></td>
+				<td><a href="booking.php">CONTACT US</a></td>
+				<td><a href="coronavirus.html">CORONAVIRUS</a></td>
+				
+			
+			</tr>
+			
+		</table>
+			
 		</div>
 
 	</div>
 
-	<div id="topnav">
+	<div id="topnav2">
 
 		<table id="table2">
 			<tr>

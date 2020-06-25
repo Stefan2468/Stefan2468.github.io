@@ -21,16 +21,15 @@ body {background-color:#ffffff;
 #door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:20px;}
 #background {opacity:0.3; position: absolute; height:141px; width:100%;}
 
-#topnav1 {padding-top:6px;}
-#topnav1 ul {position:relative; width:auto; height:auto; float:left; text-align:center; font-weight:bolder; list-style-type:none; padding:14px 0px 0px 40px; margin:0;}
-#topnav1 ul li {display:inline; width:auto; float:left; height:auto; text-align:center; font-size:17px;}
-#topnav1 ul li a {padding:3px 27px; border-right:2px #9F9F9F solid; clear:both;}
 
-#topnav1 a:link {color:#004646; text-decoration: none;}
-#topnav1 a:visited {color:#004646;}
-#topnav1 a:hover {color:#004646; background-color:#0099CC;}
-#topnav1 a:active {color:#004646;}
-#topnav1 a:focus {color:#004646;}
+#table_top1 {text-align:center; font-size:17px; width:auto; table-layout:fixed; padding:15px 0px 0px 37px;}
+#table_top1 td {border-right:2px #9F9F9F solid; font-weight:bolder; padding:3px 27px; table-layout:fixed;}
+
+#table_top1 a:link {color:#004646; text-decoration: none;}
+#table_top1 a:visited {color:#004646;}
+#table_top1 a:hover {color:#004646; background-color:#0099CC; display:block; width:98%; height:100%; margin:0px auto; text-decoration:none; border-bottom:1.5px #004646 solid;}
+#table_top1 a:active {color:#004646;}
+#table_top1 a:focus {color:#004646;}
 
 
 #table2 {background-color:#004646; border:2px #9F9F9F solid; text-align:center; width:100%; table-layout:fixed; height:28px; font-size:16px}
