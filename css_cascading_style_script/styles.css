@@ -19,13 +19,13 @@ body {background-color:#ffffff;
 #top {width:100%; margin:0px auto; height:141px; overflow:hidden; position:relative; clear:both;}
 #top h1 {font-size:58px; color:#004646; position:relative; text-align:left; font-family:"Andalus", "Times New Roman", Times, serif; line-height:12px;}
 #door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:20px;}
-#background {opacity:0.3; position: absolute; height:141px; width:100%;}
+#background {opacity:0.3; position:absolute; height:141px; width:100%;}
 
 
-#table_top1 {text-align:center; font-size:17px; width:auto; table-layout:fixed; padding:15px 0px 0px 37px;}
-#table_top1 td {border-right:2px #9F9F9F solid; font-weight:bolder; padding:3px 27px; table-layout:fixed;}
+#table_top1 {float:left; text-align:center; font-size:17px; width:auto; table-layout:fixed; padding:10px 0px 1px 37px;}
+#table_top1 td {border-right:2px #9F9F9F solid; width:auto; table-layout:fixed; height:26px; font-weight:bolder; padding:1px 27px; clear:both;}
 
-#table_top1 a:link {color:#004646; text-decoration: none;}
+#table_top1 a:link {color:#004646; text-decoration:none;}
 #table_top1 a:visited {color:#004646;}
 #table_top1 a:hover {color:#004646; background-color:#0099CC; display:block; width:98%; height:100%; margin:0px auto; text-decoration:none; border-bottom:1.5px #004646 solid;}
 #table_top1 a:active {color:#004646;}
@@ -36,7 +36,7 @@ body {background-color:#ffffff;
 #table2 {border-collapse:collapse;}
 #table2 td {text-align:center; border-right:2px solid #9F9F9F; width:20%; table-layout:fixed; height:26px; font-weight:600; padding:1px;}
 
-#table2 a:link {color:#ffffff; text-decoration: none;}
+#table2 a:link {color:#ffffff; text-decoration:none;}
 #table2 a:visited {color:#ffffff;}
 #table2 a:hover {color:#ffffff; background-color:#0099CC; display:block; width:98%; height:100%; margin:0px auto; text-decoration:none; border-bottom:1.5px white solid;}
 #table2 a:active {color:#ffffff;}
