@@ -23,7 +23,7 @@ body {background-color:#ffffff;
 
 #topnav1 {padding-top:7px;}
 #topnav1 ul {position:relative; width:auto; float:left; text-align:center; font-weight:bolder;}
-#topnav1 ul li {display:inline-table; width:auto; height:auto; text-align:center; font-size:17px;}
+#topnav1 ul li {display:inline; width:15%; height:auto; text-align:center; font-size:17px;}
 #topnav1 ul li a {float:left; padding:0px 27px; border-right:2px #9F9F9F solid;}
 
 #topnav1 a:link {color:#004646; text-decoration: none;}
