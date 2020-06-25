@@ -22,8 +22,8 @@ body {background-color:#ffffff;
 #background {opacity:0.3; position: absolute; height:141px; width:100%; }
 
 #topnav1 {padding-top:7px;}
-#topnav1 ul {position:relative; width:auto; height:28px; float:left; text-align:left; font-weight:bolder;}
-#topnav1 ul li {display:inline; width:auto; text-align:left; font-size:17px;}
+#topnav1 ul {position:relative; width:auto; float:left; text-align:left; font-weight:bolder;}
+#topnav1 ul li {display:inline; width:auto; height:auto; text-align:left; font-size:17px;}
 #topnav1 ul li a {float:left; padding:0px 27px; border-right:2px #9F9F9F solid;}
 
 #topnav1 a:link {color:#004646; text-decoration: none;}
