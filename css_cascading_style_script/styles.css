@@ -21,10 +21,10 @@ body {background-color:#ffffff;
 #door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:20px;}
 #background {opacity:0.3; position: absolute; height:141px; width:100%;}
 
-#topnav1 {padding-top:1px;}
+#topnav1 {padding-top:6px;}
 #topnav1 ul {position:relative; width:auto; float:left; text-align:center; font-weight:bolder; list-style-type:none;}
-#topnav1 ul li {display:inline; width:auto; height:auto; text-align:center; font-size:17px;}
-#topnav1 ul li a {float:left; padding:0px 27px; border-right:2px #9F9F9F solid;}
+#topnav1 ul li {display:inline; width:auto; height:auto; text-align:center; font-size:17px; line-height:2.0;}
+#topnav1 ul li a {float:left; padding:3px 27px; border-right:2px #9F9F9F solid;}
 
 #topnav1 a:link {color:#004646; text-decoration: none;}
 #topnav1 a:visited {color:#004646;}
