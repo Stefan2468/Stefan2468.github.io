@@ -22,8 +22,8 @@ body {background-color:#ffffff;
 #background {opacity:0.3; position:absolute; height:141px; width:100%;}
 
 
-#table_top1 {float:left; text-align:center; font-size:17px; width:auto; table-layout:fixed; padding:10px 0px 1px 37px;}
-#table_top1 td {border-right:2px #9F9F9F solid; width:auto; table-layout:fixed; height:26px; font-weight:bolder; padding:1px 27px; clear:both;}
+#table_top1 {text-align:center; font-size:17px; width:auto; table-layout:fixed; padding:10px 0px 1px 37px;}
+#table_top1 td {border-right:2px #9F9F9F solid; width:auto; table-layout:fixed; height:26px; font-weight:bolder; padding:1px 27px;}
 
 #table_top1 a:link {color:#004646; text-decoration:none;}
 #table_top1 a:visited {color:#004646;}
