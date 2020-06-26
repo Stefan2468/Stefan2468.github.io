@@ -21,9 +21,8 @@ body {background-color:#ffffff;
 #door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:20px;}
 #background {opacity:0.3; position:absolute; height:141px; width:100%;}
 
-
-#table_top1 {text-align:center; font-size:17px; width:auto; table-layout:fixed; padding:10px 0px 1px 37px;}
-#table_top1 td {border-right:2px #9F9F9F solid; width:auto; table-layout:fixed; height:auto; font-weight:bolder; padding:2px 27px;}
+#table_top1 {position:relative; text-align:center; font-size:17px; width:60%; float:left; margin:10px 0px 0px 0px;}
+#table_top1 td {border-right:2px #9F9F9F solid; font-weight:bolder; padding:3px 0px; width:10%;}
 
 #table_top1 a:link {color:#004646; text-decoration:none;}
 #table_top1 a:visited {color:#004646;}
