@@ -64,7 +64,7 @@
 				<td><a href="location.html">LOCAL ATTRACTIONS</a></td>
 				<td><a href="booking-information.html">BOOKING INFORMATION</a></td>
 				<td><a href="booking.php">CONTACT US</a></td>
-				<td><a href="coronavirus.html">CORONAVIRUS</a></td>
+				<td style="border-left:1.5px red solid; border-right:1.5px red solid;"><a href="coronavirus.html">CORONAVIRUS</a></td>
 			
 			</tr>
 			
