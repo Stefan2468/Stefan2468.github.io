@@ -18,7 +18,7 @@ body {background-color:#ffffff;
 
 #top {width:100%; margin:0px auto; height:141px; overflow:hidden; position:relative; clear:both;}
 #top h1 {font-size:58px; color:#004646; position:relative; text-align:left; font-family:"Andalus", "Times New Roman", Times, serif; line-height:12px;}
-#door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:20px;}
+#door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:4%;}
 #background {opacity:0.3; position:absolute; height:141px; width:100%;}
 
 #table_top1 {position:relative; text-align:center; font-size:17px; width:60%; float:left; margin:10px 0px 0px 0px;}
@@ -33,7 +33,7 @@ body {background-color:#ffffff;
 
 #table2 {background-color:#004646; border:2px #9F9F9F solid; text-align:center; width:100%; table-layout:fixed; height:28px; font-size:16px}
 #table2 {border-collapse:collapse;}
-#table2 td {text-align:center; border-right:2px solid #9F9F9F; width:20%; table-layout:fixed; height:26px; font-weight:600; padding:1px;}
+#table2 td {text-align:center; border-right:2px solid #9F9F9F; border-bottom:3px #9F9F9F solid; width:20%; table-layout:fixed; height:26px; font-weight:600; padding:1px;}
 
 #table2 a:link {color:#ffffff; text-decoration:none;}
 #table2 a:visited {color:#ffffff;}
