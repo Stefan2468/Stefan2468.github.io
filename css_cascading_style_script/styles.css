@@ -21,19 +21,21 @@ body {background-color:#ffffff;
 #door_logo_1 {position:relative; height:131px; width:91px; float:left; margin-left:4%;}
 #background {opacity:0.3; position:absolute; height:141px; width:100%;}
 
-#table_top1 {position:relative; text-align:center; font-size:17px; width:60%; float:left; margin:10px 0px 0px 0px;}
-#table_top1 td {border-right:2px #9F9F9F solid; font-weight:bolder; padding:0px 0px; width:10%;}
+#table_top1 {position:relative; text-align:center; font-size:17px; width:72%; float:left; margin:10px 0px 0px 0px;}
+#table_top1 td {border-right:2px #9F9F9F solid; font-weight:bolder; padding:2px 0px; width:11%; table-layout:fixed;}
+#table_top1 td a {display:block;}
 
 #table_top1 a:link {color:#004646; text-decoration:none;}
 #table_top1 a:visited {color:#004646;}
-#table_top1 a:hover {color:#004646; background-color:#0099CC; display:block; padding:3px 0px; width:98%; height:100%; margin:0px auto; text-decoration:none; border-bottom:1.5px #004646 solid;}
+#table_top1 a:hover {color:#004646; background-color:#0099CC; display:block; padding:0px 0px; width:98%; height:100%; margin:0px auto; text-decoration:none; border-bottom:1.5px #004646 solid;}
 #table_top1 a:active {color:#004646;}
 #table_top1 a:focus {color:#004646;}
 
 
 #table2 {background-color:#004646; border:2px #9F9F9F solid; text-align:center; width:100%; table-layout:fixed; height:28px; font-size:16px}
 #table2 {border-collapse:collapse;}
-#table2 td {text-align:center; border-right:2px solid #9F9F9F; border-bottom:3px #9F9F9F solid; width:20%; table-layout:fixed; height:26px; font-weight:600; padding:1px;}
+#table2 td {text-align:center; border-right:2px solid #9F9F9F; border-bottom:3px #9F9F9F solid; width:20%; table-layout:fixed; font-weight:600; padding:2px 0px;}
+#table2 td a {display:block;}
 
 #table2 a:link {color:#ffffff; text-decoration:none;}
 #table2 a:visited {color:#ffffff;}
@@ -43,8 +45,9 @@ body {background-color:#ffffff;
 
 
 
-#coronavirus_note {width:73%; margin:0px auto; margin-top:5px; font-size:17px; font-weight:bolder; text-align:justify;}
-#coronavirus_note p {margin:0px auto; border:1px #FF0000 solid; padding:9px 22px; font-size:17px; font-weight:bolder; text-align:justify;}
+#coronavirus_note {width:73%; margin:0px auto; margin-top:5px; font-size:16px; font-weight:normal; text-align:justify;}
+#coronavirus_note p {margin:0px auto; border:1px #1A00C4 solid; padding:9px 22px; font-size:16px; font-weight:normal; text-align:justify;}
+#coronavirus_note p a {text-decoration:none; color:#1A00C4;}
 #coronavirus {width:85%; margin:0px auto; text-align:center;}
 #coronavirus h1 {font-size:35px; color:#006666; padding:30px 0px 15px 0px; border-bottom:1px #777777 solid;}
 #covid_text {width:85%; margin:0px auto;}
@@ -59,7 +62,7 @@ body {background-color:#ffffff;
 #slider {width:50%;}
 #slider img {float:left; width:565px; height:423px;}
 
-#sidebar1 {width:48%; padding:15px 0px 12px 0px; margin:0px 30px 0px 25px;}
+#sidebar1 {width:48%; padding:15px 0px 11px 0px; margin:0px 30px 0px 25px;}
 #sidebar1 p {float:left; font-size:23px; text-align:left;}
 
 #sidebar2 {width:48%; padding:0px 0px 15px 0px; background-color:#E8FFFF; border:2px #AAD5FF solid;}
@@ -238,7 +241,7 @@ textarea.text_area2 {
 #location {float:left; width:44%; padding-left:30px;}
 #location p {font-size:18px; float:none;}
 
-.attractions {width:94%; margin:0px auto; background-color:#ffffff; text-align:left;}
+.attractions {width:90%; margin:0px auto; background-color:#ffffff; text-align:left;}
 .attractions p {font-size:18px;}
 
 #top_attractions {width:34%; background-color:#E8FFFF; border:2px #AAD5FF solid; float:right}
@@ -259,7 +262,7 @@ color:#006666;}
 #nature h2 {font-size:25px; color:#006666; }
 #nature p {font-size:18px; text-align:justify; padding-right:38%; }
 
-#culture {width:94%; margin:0px auto; clear:both}
+#culture {width:90%; margin:0px auto; clear:both}
 #culture h2 {font-size:25px; color:#006666; }
 #culture p {font-size:18px; text-align:justify; padding-right:40px; }
 
