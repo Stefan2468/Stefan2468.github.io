@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 	//echo intval(clean($_POST['input_code']))."\r\n";
 	$codeInput_as_typed_in = ((($codeNumber_encoded + 1)/2)+1)/1111;
 	//echo $codeInput_as_typed_in."\r\n";
-	if ($codeInput_as_typed_in != intval(clean($_POST['input_code']))) $error_msg = "Your enquiry was identified as spam and could not be sent. Please try again, or email your enquiry direct to shipplets@hotmail.com.\r\n";
+	if ($codeInput_as_typed_in != intval(clean($_POST['input_code']))) $error_msg = "Your enquiry was identified as spam and could not be sent. Please try again, or email your enquiry direct to shipplets@hotmail.com\r\n";
 
 	if ($error_msg == NULL) {
 
@@ -112,7 +112,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 			// Finally produce error message or send email
 
 			if(!$mail->send()) {
-				$error_msg[] = "Unfortunately, your enquiry could not be sent. Please try again, or email your enquiry direct to shipplets@hotmail.com.\r\n";
+				$error_msg[] = "Unfortunately, your enquiry could not be sent. Please try again, or email your enquiry direct to shipplets@hotmail.com\r\n";
 			} else {
 				$error_msg[] = "Thank you for your enquiry- we will aim to reply to you within the next few hours, subject to the time zone difference.<br>
 				Please click the 'Back' button on your browser to return to the Shipplets website.\r\n";
@@ -125,18 +125,18 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 				//}
 			}
 		}catch (phpmailerException $e) {
-			$error_msg[] = "Unfortunately, your enquiry could not be sent. Please try again, or email your enquiry direct to shipplets@hotmail.com. <br> <br>";
+			$error_msg[] = "Unfortunately, your enquiry could not be sent. Please try again, or email your enquiry direct to shipplets@hotmail.com <br> <br>";
 
 		  	$error_msg[] = $e->errorMessage(); //Pretty error messages from PHPMailer
 		} catch (Exception $e) {
-			$error_msg[] = "Unfortunately, your enquiry could not be sent. Please try again, or email your enquiry direct to shipplets@hotmail.com. <br> <br>";
+			$error_msg[] = "Unfortunately, your enquiry could not be sent. Please try again, or email your enquiry direct to shipplets@hotmail.com <br> <br>";
 
 		  	$error_msg[] = $e->getMessage(); //Boring error messages from anything else!
 		}
 
 	} else {
 		if (empty($error_msg))
-			$error_msg[] = "Your enquiry was identified as spam and could not be sent. Please try again, or email your enquiry direct to shipplets@hotmail.com.\r\n";
+			$error_msg[] = "Your enquiry was identified as spam and could not be sent. Please try again, or email your enquiry direct to shipplets@hotmail.com\r\n";
 	}
 
 }
