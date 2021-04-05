@@ -59,15 +59,17 @@ body {background-color:#ffffff;
 
 
 
-#slider {width:50%;}
+#slider {width:48%;}
 #slider img {float:left; width:565px; height:423px;}
 
-#sidebar1 {width:48%; padding:15px 0px 11px 0px; margin:0px 30px 0px 25px;}
-#sidebar1 p {float:left; font-size:23px; text-align:left;}
+#sidebar_main {width:48%; float:left; padding:0px; margin:0px 0px 0px 55px; }
 
-#sidebar2 {width:48%; padding:0px 0px 15px 0px; background-color:#E8FFFF; border:2px #AAD5FF solid;}
+#sidebar1 {float:left; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+#sidebar1 p {font-size:23px; text-align:left;}
+
+#sidebar2 {float:left; padding:0px 0px 15px 0px; background-color:#E8FFFF; border:2px #AAD5FF solid;}
 #sidebar2 h2 {float:left; font-size:22px; text-align:left; margin:11px 0px 0px 20px;}
-#sidebar2 p {float:left; font-size:19px; text-align:left; margin:20px 0px 0px 42px; clear:both;}
+#sidebar2 p {float:left; font-size:19px; text-align:left; margin:20px 0px 0px 42px;}
 
 #sidebar2 ul li
 	{float:left;
@@ -78,7 +80,6 @@ body {background-color:#ffffff;
 	clear:both;}
 
 
-#subbanner {}
 
 #content {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding:20px}
 #content h1 {font-size:35px; text-align:left; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666;}
