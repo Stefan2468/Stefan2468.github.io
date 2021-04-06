@@ -12,7 +12,26 @@
 	<link rel="stylesheet" type="text/css" href="css_cascading_style_script/lightbox.min.css">
 	<script src="java_script/lightbox-plus-jquery.min.js"></script>
 
+<style>
+	.carousel {
+		float:left;
+		width:565px;
+		height:423px;
+		overflow:hidden;
+		margin:25px auto 30px auto;
+		padding: 0;
+		border: 0;
+		}
 
+	.carousel img {
+		width:565px;
+		height:423px;
+		display:none;
+		padding: 0;
+		border: 0;
+		}
+
+</style>
 
 <script src="java_script/jquery_js.js"></script>
 <script src="java_script/jquery_ui.js"></script>
@@ -105,23 +124,99 @@
 		</div>
 
 	
-    	<div id="slider" style="margin:20px 40px 0px 2%;">
+    	<div class="carousel" style="margin:16px 40px 20px 2%; overflow:hidden; ">
 
-            <img class="mySlides" src="images/banner_images/church-living1.jpg" style="border:0px" alt="Church Road Living / Dining Room" />
-            <img class="mySlides" src="images/banner_images/church-living2.jpg" style="border:0px" alt="Church Road Living / Dining Room" />
-            <img class="mySlides" src="images/banner_images/church-bedroom1.jpg" style="border:0px" alt="Church Road Double Bedroom" />
-            <img class="mySlides" src="images/banner_images/cambridge-living1.jpg" style="border:0px" alt="Cambridge Road Living Room" />
-            <img class="mySlides" src="images/banner_images/cambridge-living2.jpg" style="border:0px" alt="Cambridge Road Living Room" />
-            <img class="mySlides" src="images/banner_images/cambridge-bedroom1.jpg" style="border:0px" alt="Cambridge Road Double Bedroom" />
-            <img class="mySlides" src="images/banner_images/first-living1.jpg" style="border:0px" alt="First Floor Living Room" />
-            <img class="mySlides" src="images/banner_images/first-living2.jpg" style="border:0px" alt="First Floor Living Room" />
-            <img class="mySlides" src="images/banner_images/first-bedroom.jpg" style="border:0px" alt="First Floor Bedroom" />
-            <img class="mySlides" src="images/banner_images/studio-living.jpg" style="border:0px" alt="Studio Living / Bedroom" />
-            <img class="mySlides" src="images/banner_images/studio-kitchen.jpg" style="border:0px" alt="Studio Kitchen" />
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/church-living1.jpg" style="border:0px" alt="Church Road Living / Dining Room" />
+            	<div class="text-block"> <p> Two Bedroom Apartment </p> 
+            
+            	</div>
+            </div>
+            
+            
+          	<div class="container">   
+           		<img class="mySlides" src="images/banner_images/church-living2.jpg" style="border:0px" alt="Church Road Living / Dining Room" />
+            	<div class="text-block"> <p> Two Bedroom Apartment </p> 
+            
+            	</div>
+            </div>
+
+
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/church-bedroom1.jpg" style="border:0px" alt="Church Road Double Bedroom" />
+            	<div class="text-block"> <p> Two Bedroom Apartment </p> 
+            
+            	</div>
+			</div>
+            
+            
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/cambridge-living1.jpg" style="border:0px" alt="Cambridge Road Living Room" />
+            	<div class="text-block"> <p> Two Bedroom House </p> 
+            
+            	</div>
+			</div>
+
+
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/cambridge-living2.jpg" style="border:0px" alt="Cambridge Road Living Room" />
+            	<div class="text-block"> <p> Two Bedroom House </p> 
+            
+            	</div>
+			</div>
+
+
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/cambridge-bedroom1.jpg" style="border:0px" alt="Cambridge Road Double Bedroom" />
+            	<div class="text-block"> <p> Two Bedroom House </p> 
+            
+            	</div>
+			</div>
+
+
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/first-living1.jpg" style="border:0px" alt="First Floor Living Room" />
+            	<div class="text-block"> <p> One Bedroom Apartment </p> 
+            
+            	</div>
+			</div>
+	
+            
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/first-living2.jpg" style="border:0px" alt="First Floor Living Room" />
+            	<div class="text-block"> <p> One Bedroom Apartment </p> 
+            
+            	</div>
+			</div>
+
+            
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/first-bedroom.jpg" style="border:0px" alt="First Floor Bedroom" />
+            	<div class="text-block"> <p> One Bedroom Apartment </p> 
+            
+            	</div>
+			</div>
+
+            
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/studio-living.jpg" style="border:0px" alt="Studio Living / Bedroom" />
+            	<div class="text-block"> <p> Studio Apartment </p> 
+            
+            	</div>
+			</div>
+
+            
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/studio-kitchen.jpg" style="border:0px" alt="Studio Kitchen" />
+            	<div class="text-block"> <p> Studio Apartment </p> 
+            
+            	</div>
+			</div>
+
             
         </div>
         
-       	<div id="sidebar_main">
+       	
     	<div id="sidebar1" style="overflow:hidden;">
 
             <p><strong>A family run business, spanning over 20 years, offering short-term accommodation in an enviable central Richmond location.</strong></p>
@@ -144,10 +239,10 @@
             <p><strong>Hastle free booking, done directly through the owner.</strong></p>
 
         </div>
-        </div>
+        
        
         
-        <br /><br />
+        <br><br>
       
       	
 	<div id="content_main1">
