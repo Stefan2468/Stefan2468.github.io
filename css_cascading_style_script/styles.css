@@ -67,7 +67,7 @@ body {background-color:#ffffff;
 #sidebar1 {width:48%; float:left; padding:5px 0px 0px 0px; margin:1px 0px 0px 10px; }
 #sidebar1 p {font-size:23px; text-align:left;}
 
-#sidebar2 {width:48%; float:left; clear:none; padding:0px 0px 14px 0px; margin:1.5% 0px 0px 10px; background-color:#E8FFFF; border:2px #AAD5FF solid;}
+#sidebar2 {width:48%; float:left; clear:none; padding:0px 0px 14px 0px; margin:13px 0px 0px 10px; background-color:#E8FFFF; border:2px #AAD5FF solid;}
 #sidebar2 h2 {float:left; font-size:22px; text-align:left; margin:11px 0px 0px 20px;}
 #sidebar2 p {float:left; font-size:19px; text-align:left; margin:20px 0px 0px 42px;}
 
