@@ -61,7 +61,7 @@ body {background-color:#ffffff;
 
 .slider {float:left; width:590px;
 		padding:0px; border:0px; margin:16px 10px 20px 2%; }
-.slider img {width:565px; height:423px;
+.slider img {width:565px; height:423px; margin-bottom:5px;
 			}
 
 #sidebar1 {width:48%; float:left; padding:5px 0px 0px 0px; margin:1px 0px 0px 10px; }
