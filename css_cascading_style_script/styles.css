@@ -125,15 +125,19 @@ body {background-color:#ffffff;
 
 
 
+#booking_information {background-color:#ffffff; clear:both; text-align:center;}
+#booking_information h1 {font-size:35px; text-align:center; margin-left:50px; margin-right:50px; padding:30px 0px 15px 0px; border-bottom:1px #777777 solid; color:#006666;}
+#booking_information h2 {font-size:20px; text-align:center; color:#006666; font-weight:bold; padding:0px 150px;}
+#booking_information p {font-size:18px;  text-align:center; padding-left:150px; padding-right:150px;}
+#booking_information ul {text-align:center; margin:0px 5%;}
+#booking_information ul li {text-align:center, justify;}
+
 
 
 #booking_page {background-color:#ffffff; clear:both; text-align:center;}
 #booking_page h1 {font-size:35px; text-align:center; margin-left:50px; margin-right:50px; padding:30px 0px 15px 0px; border-bottom:1px #777777 solid; color:#006666;}
-#booking_page h2 {font-size:20px; text-align:center; color:#006666; font-weight:bold; padding:0pc 150px;}
+#booking_page h2 {font-size:20px; text-align:center; color:#006666; font-weight:bold; padding:0px 150px;}
 #booking_page p {font-size:18px;  text-align:center; padding-left:150px; padding-right:150px;}
-#booking_page ul {text-align:center; margin:0px 5%;}
-#booking_page ul li {text-align:center,justify;}
-
 
 
 #booking_form {position:relative;}
