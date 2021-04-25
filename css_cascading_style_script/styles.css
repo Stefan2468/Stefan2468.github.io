@@ -234,6 +234,47 @@ textarea.text_area2 {
 .email_box:hover {border:solid #006666 2px;}
 .email_box a:link {color:#003333; text-decoration:none;}
 
+
+
+
+
+.apartment {width:85%; margin:0px auto; background-color:#ffffff; text-align:justify;}
+.apartment h1 {font-size:23px; padding:0px 30px 0px 0px; color:#006666; font-weight:bold}
+.apartment h2 {font-size:18px;}
+.apartment p {font-size:18px; }
+.apartment img {float:right; padding:6px; border:1px #cccccc solid; margin:0px 0px 0px 14%; clear:both; width:650px; height:432px;}
+
+#description {width:85%; margin:30px 0px 0px 25px;}
+#description {}
+
+
+#apartment-layout {width:85%; margin:0px auto; background-color:#ffffff; text-align:left; padding-top:10px;}
+#apartment-layout h1 {font-size:23px; padding:0px; color:#006666; font-weight:bold }
+#apartment-layout h2 {font-size:18px;}
+#apartment-layout img {float:right; padding:6px; border:1px #cccccc solid; margin:0px 0px 0px 14%; width:650px; height:432px;}
+#apartment-layout p {font-size:18px;}
+#apartment-layout ul {font-size:18px; margin-top:5px;}
+#apartment-layout ul li {padding-bottom:8px;}
+
+#layout {width:85%; margin:0px 0px 0px 25px;}
+
+
+.facilities {width:85%; margin:0px auto; background-color:#ffffff; overflow:hidden;}
+.facilities h1 {font-size:28px; color:#006666; font-weight:bold}
+.facilities h2 {font-size:23px; color:#006666; font-weight:bold}
+
+#list1 {width:30%; float:left; clear:both; padding-left:3%;}
+#list1 ul {font-size:18px; line-height:1.25;}
+#list1 ul li {margin-left: 0px;}
+#list2 {width:30%; float:left; padding-left:3%;}
+#list2 ul {font-size:18px; line-height:1.25;}
+#list2 ul li {margin-left: 0px;}
+#list3 {width:30%; float:left; padding-left:3%;}
+#list3 ul {font-size:18px; line-height:1.25;}
+#list3 ul li {margin-left: 0px;}
+
+
+
 .info_page_right {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
 .info_page_right img {float:left; padding:6px; border:1px #cccccc solid; margin-right:38px;}
 .info_page_right p {font-size:18px; }
@@ -242,14 +283,14 @@ textarea.text_area2 {
 .info_page_right h1 {padding:0px 30px 0px 0px; font-size:20px; color:#006666; font-weight:bold}
 .info_page_right h2 {font-size:18px;}
 
-
-#apartment-layout {width:54%; float:left; background-color:#ffffff; text-align:left;}
+/*
+#apartment-layout {width:90%; float:left; background-color:#ffffff; text-align:left;}
 #apartment-layout h1 {padding:0px; font-size:20px; color:#006666; font-weight:bold }
 #apartment-layout h2 {font-size:18px;}
 #apartment-layout p {font-size:18px;}
 #apartment-layout ul {font-size:18px; float:left; clear:both; margin-top:5px;}
 #apartment-layout ul li {padding-bottom:8px;}
-
+*/
 
 /*
 #rating_logo {float:left; width:180px;}
@@ -258,6 +299,38 @@ textarea.text_area2 {
 
 #location {float:left; width:25%; margin:0px auto; margin-left:13%;}
 #location p {font-size:18px; float:none;}
+
+
+.info_page_left {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
+.info_page_left img {float:right; padding:6px; border:1px #cccccc solid; margin-left:35px; margin-bottom: 20px;}
+.info_page_left p {font-size:18px;}
+.info_page_left h1 { font-size:20px; color:#006666; font-weight:bold}
+
+
+/*
+#facilities {width:51%;}
+#list1 {width:50%; float:left; clear:both;}
+#list1 ul {font-size:18px; line-height:1.25;}
+#list1 ul li {margin-left: 0px;}
+#list2 {width:50%; float:left;}
+#list2 ul {font-size:18px; line-height:1.25;}
+#list2 ul li {margin-left: 0px;}
+*/
+
+.info_page_bottom {width:90%; padding-top:75px; margin:0px auto; background-color:#ffffff; clear:both; text-align:center;}
+.info_page_bottom img {padding:6px; border:1px #cccccc solid; width:100%; height: auto;}
+
+img.map {
+	height:100px;
+	width:100px;
+	}
+img.map:hover {border: solid #006666 thin;}
+
+
+
+
+
+
 
 .attractions {width:90%; margin:0px auto; background-color:#ffffff; text-align:left;}
 .attractions p {font-size:18px;}
@@ -305,34 +378,15 @@ color:#006666;}
 .gallery1 a title {font-size:large;}
 
 
-.info_page_left {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
-.info_page_left img {float:right; padding:6px; border:1px #cccccc solid; margin-left:35px; margin-bottom: 20px;}
-.info_page_left p {font-size:18px;}
-.info_page_left h1 { font-size:20px; color:#006666; font-weight:bold}
 
-
-#facilities {width:51%;}
-#list1 {width:50%; float:left; clear:both;}
-#list1 ul {font-size:18px; line-height:1.25;}
-#list1 ul li {margin-left: 0px;}
-#list2 {width:50%; float:left;}
-#list2 ul {font-size:18px; line-height:1.25;}
-#list2 ul li {margin-left: 0px;}
-
-
-.info_page_bottom {width:90%; padding-top:75px; margin:0px auto; background-color:#ffffff; clear:both; text-align:center;}
-.info_page_bottom img {padding:6px; border:1px #cccccc solid; width:100%; height: auto;}
-
-img.map {
-	height:100px;
-	width:100px;
-	}
-img.map:hover {border: solid #006666 thin;}
 
 .text_page {background-color:#ffffff; clear:both; text-align:center;}
 .text_page h1 {font-size:20px; text-align:center; color:#006666; font-weight:bold}
 .text_page p {font-size:15px;  text-align:justify; padding-left:100px; padding-right:100px}
 p#small_text {text-align:center; font-size: 15px; color:#7B7D7D;}
+
+
+
 
 .review {
 	text-align:left;
