@@ -237,19 +237,17 @@ textarea.text_area2 {
 
 
 
-
 .apartment {width:85%; margin:0px auto; background-color:#ffffff; text-align:justify;}
-.apartment h1 {font-size:23px; padding:0px 30px 0px 0px; color:#006666; font-weight:bold}
+.apartment h1 {font-size:23px; padding:5px 30px 0px 0px; color:#006666; font-weight:bold}
 .apartment h2 {font-size:18px;}
 .apartment p {font-size:18px; }
 .apartment img {float:right; padding:6px; border:1px #cccccc solid; margin:0px 0px 0px 14%; clear:both; width:650px; height:432px;}
 
 #description {width:85%; margin:30px 0px 0px 25px;}
-#description {}
 
 
 #apartment-layout {width:85%; margin:0px auto; background-color:#ffffff; text-align:left; padding-top:10px;}
-#apartment-layout h1 {font-size:23px; padding:0px; color:#006666; font-weight:bold }
+#apartment-layout h1 {font-size:23px; padding:5px 0px 0px 0px; color:#006666; font-weight:bold }
 #apartment-layout h2 {font-size:18px;}
 #apartment-layout img {float:right; padding:6px; border:1px #cccccc solid; margin:0px 0px 0px 14%; width:650px; height:432px;}
 #apartment-layout p {font-size:18px;}
@@ -259,9 +257,9 @@ textarea.text_area2 {
 #layout {width:85%; margin:0px 0px 0px 25px;}
 
 
-.facilities {width:85%; margin:0px auto; background-color:#ffffff; overflow:hidden;}
-.facilities h1 {font-size:28px; color:#006666; font-weight:bold}
-.facilities h2 {font-size:23px; color:#006666; font-weight:bold}
+.facilities {width:82%; margin:0px auto; background-color:#ffffff; overflow:hidden;}
+.facilities h1 {font-size:23px; color:#006666; font-weight:bold; padding-bottom:0px;}
+.facilities h2 {font-size:20px; color:#006666; font-weight:bold}
 
 #list1 {width:30%; float:left; clear:both; padding-left:3%;}
 #list1 ul {font-size:18px; line-height:1.25;}
@@ -274,48 +272,22 @@ textarea.text_area2 {
 #list3 ul li {margin-left: 0px;}
 
 
+.location_tag {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
+.location_tag img {float:left; padding:6px; border:1px #cccccc solid; margin-right:38px;}
+.location_tag h1 {padding:0px 30px 0px 0px; font-size:23px; color:#006666; font-weight:bold}
 
-.info_page_right {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
-.info_page_right img {float:left; padding:6px; border:1px #cccccc solid; margin-right:38px;}
-.info_page_right p {font-size:18px; }
-.info_page_right ul {padding-left:0px; font-size:18px;}
-.info_page_right ul li {padding-bottom:10px;}
-.info_page_right h1 {padding:0px 30px 0px 0px; font-size:20px; color:#006666; font-weight:bold}
-.info_page_right h2 {font-size:18px;}
+#location {float:left; width:25%; margin:0px auto; margin-left:13%;}
+#location h1 {font-size:25px;}
+#location p {font-size:18px; float:none;}
 
-/*
-#apartment-layout {width:90%; float:left; background-color:#ffffff; text-align:left;}
-#apartment-layout h1 {padding:0px; font-size:20px; color:#006666; font-weight:bold }
-#apartment-layout h2 {font-size:18px;}
-#apartment-layout p {font-size:18px;}
-#apartment-layout ul {font-size:18px; float:left; clear:both; margin-top:5px;}
-#apartment-layout ul li {padding-bottom:8px;}
-*/
+
 
 /*
 #rating_logo {float:left; width:180px;}
 #rating_logo img {float:left; clear:both; margin:1px 0px 0px 75px; padding:0px; border:0px; width:110px; height:146px;}
 */
 
-#location {float:left; width:25%; margin:0px auto; margin-left:13%;}
-#location p {font-size:18px; float:none;}
 
-
-.info_page_left {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
-.info_page_left img {float:right; padding:6px; border:1px #cccccc solid; margin-left:35px; margin-bottom: 20px;}
-.info_page_left p {font-size:18px;}
-.info_page_left h1 { font-size:20px; color:#006666; font-weight:bold}
-
-
-/*
-#facilities {width:51%;}
-#list1 {width:50%; float:left; clear:both;}
-#list1 ul {font-size:18px; line-height:1.25;}
-#list1 ul li {margin-left: 0px;}
-#list2 {width:50%; float:left;}
-#list2 ul {font-size:18px; line-height:1.25;}
-#list2 ul li {margin-left: 0px;}
-*/
 
 .info_page_bottom {width:90%; padding-top:75px; margin:0px auto; background-color:#ffffff; clear:both; text-align:center;}
 .info_page_bottom img {padding:6px; border:1px #cccccc solid; width:100%; height: auto;}
@@ -325,9 +297,6 @@ img.map {
 	width:100px;
 	}
 img.map:hover {border: solid #006666 thin;}
-
-
-
 
 
 
