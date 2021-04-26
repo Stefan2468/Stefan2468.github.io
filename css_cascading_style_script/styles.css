@@ -238,7 +238,7 @@ textarea.text_area2 {
 
 
 .apartment {width:85%; margin:0px auto; background-color:#ffffff; text-align:justify;}
-.apartment h1 {font-size:23px; padding:5px 50px 0px 0px; color:#006666; font-weight:bold}
+.apartment h1 {font-size:23px; padding:5px 0px 0px 0px; color:#006666; font-weight:bold; margin-right:40%;}
 .apartment h2 {font-size:18px;}
 .apartment p {font-size:18px; }
 .apartment img {float:right; padding:6px; border:1px #cccccc solid; margin:0px 0px 0px 14%; clear:both; width:650px; height:432px;}
