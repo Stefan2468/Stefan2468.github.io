@@ -60,14 +60,14 @@ body {background-color:#ffffff;
 
 
 .slider {float:left; width:600px;
-		padding:0px; border:0px; margin:16px 25px 20px 1.5%; }
-.slider img {width:600px; height:400px;
+		padding:0px; border:0px; margin:16px 2% 20px 1.5%; }
+.slider img {width:595px; height:396px;
 			}
 
-#sidebar1 {width:48%; float:left; padding:0px 0px 0px 0px; margin:0px 0px 0px 15px; }
+#sidebar1 {width:48%; float:left; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; }
 #sidebar1 p {font-size:23px; text-align:left;}
 
-#sidebar2 {width:48%; float:left; clear:none; padding:0px 0px 14px 0px; margin:0px 0px 0px 15px; background-color:#E8FFFF; border:2px #AAD5FF solid;}
+#sidebar2 {width:48%; float:left; clear:none; padding:0px 0px 14px 0px; margin:0px 0px 0px 0px; background-color:#E8FFFF; border:2px #AAD5FF solid;}
 #sidebar2 h2 {float:left; font-size:22px; text-align:left; margin:11px 0px 0px 20px;}
 #sidebar2 p {float:left; font-size:19px; text-align:left; margin:20px 0px 0px 42px;}
 
