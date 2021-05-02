@@ -60,14 +60,14 @@ body {background-color:#ffffff;
 
 
 .slider {float:left; width:600px;
-		padding:0px; border:0px; margin:16px 2% 20px 1.5%; }
+		padding:0px; border:0px; margin:16px 1% 20px 1.5%; }
 .slider img {width:600px; height:400px;
 			}
 
-#sidebar1 {width:45%; float:left; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; }
+#sidebar1 {width:45%; float:left; padding:0px 0px 0px 0px; margin:0px 0px 0px 1%; }
 #sidebar1 p {font-size:23px; text-align:left;}
 
-#sidebar2 {width:45%; float:left; clear:none; padding:0px 2% 14px 0px; margin:0px 0px 0px 0px; background-color:#E8FFFF; border:2px #AAD5FF solid;}
+#sidebar2 {width:45%; float:left; clear:none; padding:0px 2% 14px 0px; margin:0px 0px 0px 1%; background-color:#E8FFFF; border:2px #AAD5FF solid;}
 #sidebar2 h2 {float:left; font-size:22px; text-align:left; margin:11px 0px 0px 20px;}
 #sidebar2 p {float:left; font-size:19px; text-align:left; margin:20px 0px 0px 42px;}
 
@@ -239,7 +239,7 @@ textarea.text_area2 {
 
 .apartment {width:85%; margin:0px auto; background-color:#ffffff; text-align:justify;}
 .apartment h1 {width:90%; font-size:23px; padding:5px 30px 0px 0px; color:#006666; font-weight:bold; text-align:left;}
-.apartment h2 {width:90%; font-size:18px;}
+.apartment h2 {font-size:18px;}
 .apartment p {font-size:18px; }
 .apartment img {float:right; padding:6px; border:1px #cccccc solid; margin:0px 0px 15px 9%; clear:both; width:650px; height:432px;}
 
