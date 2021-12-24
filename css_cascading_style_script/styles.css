@@ -111,7 +111,7 @@ body {background-color:#ffffff;
 #content_main1 {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:center; padding: 0px 0px 15px 0px;}
 #content_main1 h1 {font-size:29px; text-align:center; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666; padding-top:18px;}
 #content_main1 p {font-size:19px; padding-top:18px; line-height:1.5; text-align:justify}
-#content_main1 img {float:right; padding:30px 0px 50px 60px; overflow:auto; width:450px; height:305px; }
+#content_main1 img {float:right; padding:25px 0px 40px 50px; overflow:auto; width:460px; height:345px; }
 
 
 #content_main2 {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding: 0px 0px 15px 0px;}
@@ -372,6 +372,9 @@ p#small_text {text-align:center; font-size: 15px; color:#7B7D7D;}
 
 
 
+#reviews_table{text-align:center; width:74%; table-layout:fixed; font-size:17px; font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif; margin:40px auto 0px auto;}
+
+
 .review {
 	text-align:left;
 	vertical-align:middle;
@@ -384,11 +387,11 @@ p#small_text {text-align:center; font-size: 15px; color:#7B7D7D;}
 	box-shadow:1px 1px 1px #434547;
 	margin-right:250px;
 	margin-left:250px;
-	margin-top: 50px;}
+	margin-top: 20px;}
 .review h2 {font-size:29px; padding:0px}
 .review_inner {color:#003333; font-weight:normal; font-style:italic; font-size:16px;}
 .review_inner_2 {color:black; font-weight:normal; font-style:italic; font-size:16px; font-family:Trebuchet MS, Helvetica, sans-serif; padding: 8px 0px 37px 0px;}
-.review:hover {border:solid #006666 2px;}
+
 
 #trip_advisor {font-size:16px; padding:12px 0px 5px 0px;}
 
