@@ -18,6 +18,24 @@
 <script src="java_script/jquery_js.js"></script>
 <script src="java_script/jquery_ui.js"></script>
 
+<script>
+
+	var slideIndex = 0;
+	carousel();
+
+	function carousel() {
+  		var i;
+  		var x = document.getElementsByClassName("mySlides");
+  		for (i = 0; i < x.length; i++) {
+    		x[i].style.display = "none";
+  	}
+  	slideIndex++;
+  	if (slideIndex > x.length) {slideIndex = 1}
+  	x[slideIndex-1].style.display = "block";
+  	setTimeout(carousel, 3500); // Change image every 3.5 seconds
+	}
+
+</script>
 
 
 <script>
@@ -31,18 +49,11 @@
 
 </script>
 
-	<style>
-		
-
-
-	</style>
-
 </head>
 
 
-<body>
+<body onload="carousel();">
 
-	
 <div id="wrapper">
 
 	<div id="top">
@@ -95,119 +106,98 @@
 		</div>
 
 	
-    	<div class="slider-container" style="overflow:hidden;">
+    	<div class="slider" style="width:590px; overflow:hidden;">
 
                  
-          	<div class="mySlides">
-          		<div class="numbertext"> 1/11 </div>
-          		<img src="images/banner_images/church-living1.jpg" style="border:0px" alt="Church Road Living / Dining Room" />
-           		<div class="text-block"> Two Bedroom Apartment </div>
+          	<div class="container">   
+           		<img class="mySlides" src="images/banner_images/church-living2.jpg" style="border:0px" alt="Church Road Living / Dining Room" />
+            	<div class="text-block"> <p> Two Bedroom Apartment </p> 
+            
+            	</div>
             </div>
             
             
-            <div class="mySlides">
-          		<div class="numbertext"> 2/11 </div>
-            	<img src="images/banner_images/church-living2.jpg" style="border:0px" alt="Church Road Living / Dining Room" />
-            	<div class="text-block"> Two Bedroom Apartment </div>
-          	
-          	</div>
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/church-living1.jpg" style="border:0px" alt="Church Road Living / Dining Room" />
+            	<div class="text-block"> <p> Two Bedroom Apartment </p> 
+            
+            	</div>
+            </div>
 
 
-           	<div class="mySlides">
-          		<div class="numbertext"> 3/11 </div>
-            	<img src="images/banner_images/church-bedroom1.jpg" style="border:0px" alt="Church Road Double Bedroom" />
-            	<div class="text-block"> Two Bedroom Apartment </div>
-			
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/church-bedroom1.jpg" style="border:0px" alt="Church Road Double Bedroom" />
+            	<div class="text-block"> <p> Two Bedroom Apartment </p> 
+            
+            	</div>
 			</div>
             
             
-            <div class="mySlides">
-          		<div class="numbertext"> 4/11 </div>
-            	<img src="images/banner_images/cambridge-living1.jpg" style="border:0px" alt="Cambridge Road Living Room" />
-            	<div class="text-block"> Two Bedroom House </div>
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/cambridge-living1.jpg" style="border:0px" alt="Cambridge Road Living Room" />
+            	<div class="text-block"> <p> Two Bedroom House </p> 
             
-            </div>
+            	</div>
+			</div>
 
 
-             <div class="mySlides">
-          		<div class="numbertext"> 5/11 </div>
-            	<img src="images/banner_images/cambridge-living2.jpg" style="border:0px" alt="Cambridge Road Living Room" />
-            	<div class="text-block"> Two Bedroom House </div>
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/cambridge-living2.jpg" style="border:0px" alt="Cambridge Road Living Room" />
+            	<div class="text-block"> <p> Two Bedroom House </p> 
             
- 			</div>
+            	</div>
+			</div>
 
 
-             <div class="mySlides">
-          		<div class="numbertext"> 6/11 </div>
-            	<img src="images/banner_images/cambridge-bedroom1.jpg" style="border:0px" alt="Cambridge Road Double Bedroom" />
-            	<div class="text-block"> Two Bedroom House </div>
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/cambridge-bedroom1.jpg" style="border:0px" alt="Cambridge Road Double Bedroom" />
+            	<div class="text-block"> <p> Two Bedroom House </p> 
             
- 			</div>
+            	</div>
+			</div>
 
 
-            <div class="mySlides">
-          		<div class="numbertext"> 7/11 </div>
-            	<img src="images/banner_images/first-living1.jpg" style="border:0px" alt="First Floor Living Room" />
-            	<div class="text-block"> One Bedroom Apartment </div>
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/first-living1.jpg" style="border:0px" alt="First Floor Living Room" />
+            	<div class="text-block"> <p> One Bedroom Apartment </p> 
             
+            	</div>
 			</div>
 	
             
-             <div class="mySlides">
-          		<div class="numbertext"> 8/11 </div>
-            	<img src="images/banner_images/first-living2.jpg" style="border:0px" alt="First Floor Living Room" />
-            	<div class="text-block"> One Bedroom Apartment </div>
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/first-living2.jpg" style="border:0px" alt="First Floor Living Room" />
+            	<div class="text-block"> <p> One Bedroom Apartment </p> 
             
+            	</div>
 			</div>
 
             
-            <div class="mySlides">
-          		<div class="numbertext"> 9/11 </div>
-            	<img src="images/banner_images/first-bedroom.jpg" style="border:0px" alt="First Floor Bedroom" />
-            	<div class="text-block"> One Bedroom Apartment </div>
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/first-bedroom.jpg" style="border:0px" alt="First Floor Bedroom" />
+            	<div class="text-block"> <p> One Bedroom Apartment </p> 
             
+            	</div>
 			</div>
 
             
-            <div class="mySlides">
-          		<div class="numbertext"> 10/11 </div>
-            	<img src="images/banner_images/studio-living1.JPG" style="border:0px" alt="Studio Living / Bedroom" />
-            	<div class="text-block"> Studio Apartment </div>
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/studio-living.jpg" style="border:0px" alt="Studio Living / Bedroom" />
+            	<div class="text-block"> <p> Studio Apartment </p> 
             
+            	</div>
 			</div>
 
             
-            <div class="mySlides">
-          		<div class="numbertext"> 11/11 </div>
-            	<img src="images/banner_images/studio-living2.JPG" style="border:0px" alt="Studio Living / Bedroom" />
-            	<div class="text-block"> Studio Apartment </div>
+            <div class="container">
+            	<img class="mySlides" src="images/banner_images/studio-kitchen.jpg" style="border:0px" alt="Studio Kitchen" />
+            	<div class="text-block"> <p> Studio Apartment </p> 
             
+            	</div>
 			</div>
 
             
         </div>
-        
-        
-<script>
-
-		var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  
-  slides[slideIndex-1].style.display = "block";  
-  setTimeout(showSlides, 3500); // Change image every 3.5 seconds
-}
-
-</script>
-
         
         <div style="width:1%; height:423px; float:left;">&nbsp;</div>
         
