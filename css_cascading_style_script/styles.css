@@ -59,15 +59,20 @@ body {background-color:#ffffff;
 
 
 
-.slider {float:left; width:590px;
-		padding:0px; border:0px; margin:16px 10px 20px 2%; }
-.slider img {width:565px; height:423px;
+.slider-container {float:left; width:600px;
+		padding:0px; border:0px; margin:16px 1% 20px 1.5%; 
+		position:relative; overflow:hidden;}
+.slider-container img {width:600px; height:400px;
 			}
+			
+.mySlides {display:none;
+	
+}
 
-#sidebar1 {width:48%; float:left; padding:5px 0px 0px 0px; margin:1px 0px 0px 10px; }
+#sidebar1 {width:46%; float:left; padding:0px 0px 0px 0px; margin:0px 0px 0px 1%; }
 #sidebar1 p {font-size:23px; text-align:left;}
 
-#sidebar2 {width:48%; float:left; clear:none; padding:0px 0px 15px 0px; margin:7px 0px 0px 10px; background-color:#E8FFFF; border:2px #AAD5FF solid;}
+#sidebar2 {width:45%; float:left; clear:none; padding:0px 2% 14px 0px; margin:0px 0px 0px 1%; background-color:#E8FFFF; border:2px #AAD5FF solid;}
 #sidebar2 h2 {float:left; font-size:22px; text-align:left; margin:11px 0px 0px 20px;}
 #sidebar2 p {float:left; font-size:19px; text-align:left; margin:20px 0px 0px 42px;}
 
@@ -75,20 +80,26 @@ body {background-color:#ffffff;
 	{float:left;
 	font-size:18px;
 	text-align:left;
-	margin:15px 30px 0px 0px;
+	margin:15px 15px 0px 0px;
 	line-height: 1.25;
 	clear:both;}
 	
-	
-.container {position:absolute; overflow:hidden;}
+/* Caption Text */
 .text-block {
 	position: absolute;
   	bottom: 12px;
-  	right: 12px;
+  	right: 0px;
   	background-color:#004646;
   	opacity:0.8;
   	color: white;
-  	padding: 0px 15px;}
+  	padding: 5px 15px; }
+  	
+/* Number Text (1/11 etc) */
+.numbertext {
+	position:absolute;
+	color:black;
+	padding: 8px 12px;
+	top:0; }
 
 
 
@@ -98,9 +109,9 @@ body {background-color:#ffffff;
 
 
 #content_main1 {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:center; padding: 0px 0px 15px 0px;}
-#content_main1 h1 {font-size:29px; text-align:center; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666; padding-top:25px;}
+#content_main1 h1 {font-size:29px; text-align:center; padding-bottom:15px; border-bottom:1px #777777 solid; color:#006666; padding-top:18px;}
 #content_main1 p {font-size:19px; padding-top:18px; line-height:1.5; text-align:justify}
-#content_main1 img {float:right; padding:30px 0px 50px 60px; overflow:auto; width:450px; height:305px;}
+#content_main1 img {float:right; padding:30px 0px 50px 60px; overflow:auto; width:450px; height:305px; }
 
 
 #content_main2 {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left; padding: 0px 0px 15px 0px;}
@@ -125,15 +136,19 @@ body {background-color:#ffffff;
 
 
 
+#booking_information {background-color:#ffffff; clear:both; text-align:center;}
+#booking_information h1 {font-size:35px; text-align:center; margin-left:50px; margin-right:50px; padding:30px 0px 15px 0px; border-bottom:1px #777777 solid; color:#006666;}
+#booking_information h2 {font-size:20px; text-align:center; color:#006666; font-weight:bold; padding:0px 150px;}
+#booking_information p {font-size:18px;  text-align:center; padding-left:150px; padding-right:150px;}
+#booking_information ul {text-align:center; margin:0px 5%;}
+#booking_information ul li {text-align:center, justify;}
+
 
 
 #booking_page {background-color:#ffffff; clear:both; text-align:center;}
 #booking_page h1 {font-size:35px; text-align:center; margin-left:50px; margin-right:50px; padding:30px 0px 15px 0px; border-bottom:1px #777777 solid; color:#006666;}
-#booking_page h2 {font-size:20px; text-align:center; color:#006666; font-weight:bold; padding:0pc 150px;}
+#booking_page h2 {font-size:20px; text-align:center; color:#006666; font-weight:bold; padding:0px 150px;}
 #booking_page p {font-size:18px;  text-align:center; padding-left:150px; padding-right:150px;}
-#booking_page ul {text-align:center; margin:0px auto; padding-left:40%;}
-#booking_page ul li {text-align:left;}
-
 
 
 #booking_form {position:relative;}
@@ -230,21 +245,56 @@ textarea.text_area2 {
 .email_box:hover {border:solid #006666 2px;}
 .email_box a:link {color:#003333; text-decoration:none;}
 
-.info_page_right {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
-.info_page_right img {float:left; padding:6px; border:1px #cccccc solid; margin-right:38px;}
-.info_page_right p {font-size:18px; }
-.info_page_right ul {padding-left:0px; font-size:18px;}
-.info_page_right ul li {padding-bottom:10px;}
-.info_page_right h1 {padding:0px 30px 0px 0px; font-size:20px; color:#006666; font-weight:bold}
-.info_page_right h2 {font-size:18px;}
 
 
-#apartment-layout {width:54%; float:left; background-color:#ffffff; text-align:left;}
-#apartment-layout h1 {padding:0px; font-size:20px; color:#006666; font-weight:bold }
+
+.apartment {width:85%; margin:0px auto; background-color:#ffffff; text-align:justify;}
+.apartment h1 {font-size:23px; padding:5px 0px 0px 0px; color:#006666; font-weight:bold; text-align:left;}
+.apartment h2 {font-size:18px;}
+.apartment p {font-size:18px; }
+.apartment img {float:right; padding:6px; border:1px #cccccc solid; margin:0px 0px 15px 9%; clear:both; width:650px; height:432px;}
+
+#choice {width:80%;}
+#choice h1 {font-size:23px; padding:5px 10px 0px 0px; color:#006666; font-weight:bold; text-align:left;}
+#price h2 {font-size:18px;}
+
+#description {width:85%; margin:30px 0px 0px 25px;}
+
+
+#apartment-layout {width:85%; margin:0px auto; background-color:#ffffff; text-align:left; padding-top:10px;}
+#apartment-layout h1 {font-size:23px; padding:5px 0px 0px 0px; color:#006666; font-weight:bold }
 #apartment-layout h2 {font-size:18px;}
+#apartment-layout img {float:right; padding:6px; border:1px #cccccc solid; margin:0px 0px 15px 11%; width:650px; height:432px;}
 #apartment-layout p {font-size:18px;}
-#apartment-layout ul {font-size:18px; float:left; clear:both; margin-top:5px;}
+#apartment-layout ul {font-size:18px; margin-top:5px;}
 #apartment-layout ul li {padding-bottom:8px;}
+
+#layout {width:85%; margin:0px 0px 0px 25px;}
+
+
+.facilities {width:82%; margin:0px auto; background-color:#ffffff; overflow:hidden;}
+.facilities h1 {font-size:23px; color:#006666; font-weight:bold; padding-bottom:0px;}
+.facilities h2 {font-size:20px; color:#006666; font-weight:bold}
+
+#list1 {width:30%; float:left; clear:both; padding-left:3%;}
+#list1 ul {font-size:18px; line-height:1.25;}
+#list1 ul li {margin-left: 0px;}
+#list2 {width:30%; float:left; padding-left:3%;}
+#list2 ul {font-size:18px; line-height:1.25;}
+#list2 ul li {margin-left: 0px;}
+#list3 {width:30%; float:left; padding-left:3%;}
+#list3 ul {font-size:18px; line-height:1.25;}
+#list3 ul li {margin-left: 0px;}
+
+
+.location_tag {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
+.location_tag img {float:left; padding:6px; border:1px #cccccc solid; margin-right:38px;}
+.location_tag h1 {padding:0px 30px 0px 0px; font-size:23px; color:#006666; font-weight:bold}
+
+#location {float:left; width:25%; margin:0px auto; margin-left:13%;}
+#location h1 {font-size:25px;}
+#location p {font-size:18px; float:none;}
+
 
 
 /*
@@ -252,8 +302,19 @@ textarea.text_area2 {
 #rating_logo img {float:left; clear:both; margin:1px 0px 0px 75px; padding:0px; border:0px; width:110px; height:146px;}
 */
 
-#location {float:left; width:44%; padding-left:30px;}
-#location p {font-size:18px; float:none;}
+
+
+.info_page_bottom {width:90%; padding-top:75px; margin:0px auto; background-color:#ffffff; clear:both; text-align:center;}
+.info_page_bottom img {padding:6px; border:1px #cccccc solid; width:100%; height: auto;}
+
+img.map {
+	height:100px;
+	width:100px;
+	}
+img.map:hover {border: solid #006666 thin;}
+
+
+
 
 .attractions {width:90%; margin:0px auto; background-color:#ffffff; text-align:left;}
 .attractions p {font-size:18px;}
@@ -301,34 +362,15 @@ color:#006666;}
 .gallery1 a title {font-size:large;}
 
 
-.info_page_left {width:90%; margin:0px auto; background-color:#ffffff; clear:both; text-align:left;}
-.info_page_left img {float:right; padding:6px; border:1px #cccccc solid; margin-left:35px; margin-bottom: 20px;}
-.info_page_left p {font-size:18px;}
-.info_page_left h1 { font-size:20px; color:#006666; font-weight:bold}
 
-
-#facilities {width:51%;}
-#list1 {width:50%; float:left; clear:both;}
-#list1 ul {font-size:18px; line-height:1.25;}
-#list1 ul li {margin-left: 0px;}
-#list2 {width:50%; float:left;}
-#list2 ul {font-size:18px; line-height:1.25;}
-#list2 ul li {margin-left: 0px;}
-
-
-.info_page_bottom {width:90%; padding-top:75px; margin:0px auto; background-color:#ffffff; clear:both; text-align:center;}
-.info_page_bottom img {padding:6px; border:1px #cccccc solid; width:100%; height: auto;}
-
-img.map {
-	height:100px;
-	width:100px;
-	}
-img.map:hover {border: solid #006666 thin;}
 
 .text_page {background-color:#ffffff; clear:both; text-align:center;}
 .text_page h1 {font-size:20px; text-align:center; color:#006666; font-weight:bold}
 .text_page p {font-size:15px;  text-align:justify; padding-left:100px; padding-right:100px}
 p#small_text {text-align:center; font-size: 15px; color:#7B7D7D;}
+
+
+
 
 .review {
 	text-align:left;
@@ -346,7 +388,6 @@ p#small_text {text-align:center; font-size: 15px; color:#7B7D7D;}
 .review h2 {font-size:29px; padding:0px}
 .review_inner {color:#003333; font-weight:normal; font-style:italic; font-size:16px;}
 .review_inner_2 {color:black; font-weight:normal; font-style:italic; font-size:16px; font-family:Trebuchet MS, Helvetica, sans-serif; padding: 8px 0px 37px 0px;}
-.review:hover {border:solid #006666 2px;}
 
 #trip_advisor {font-size:16px; padding:12px 0px 5px 0px;}
 
